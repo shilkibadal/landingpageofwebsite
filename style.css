@@ -1,0 +1,98 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container styling */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header styling */
+header {
+    background: #333;
+    padding: 20px 0;
+    height: 50px;
+}
+header .logo {
+    color: #fff;
+    font-size: 24px;
+    float: left;
+}
+header nav ul {
+    list-style: none;
+    float: right;
+}
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('island.png') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.hero-content .btn {
+    padding: 10px 20px;
+    background-color: #00aaff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Features Section */
+.features {
+    background: #f4f4f4;
+    padding: 50px 0;
+    background-image: url('wooden.avif');
+}
+.features h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.feature {
+    margin: 15px;
+    padding: 15px;
+    background: rgb(233, 223, 150);
+    border-radius: 5px;
+    text-align: center;
+}
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.feature p {
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
